@@ -1,4 +1,4 @@
-package by.balvanovich.lesson2;
+package by.balvanovich.lesson2.Task4;
 
 import com.sun.javaws.IconUtil;
 
