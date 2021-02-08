@@ -15,14 +15,17 @@ public class Main {
             numb = numb / 10;
         }
         boolean n = false;
-        for (int i = 0; i < count; i++)
+        for (int i = 0; i < count; i++) {
+            if (n == false)
             for (int x = 0; x <count; x++){
                 if (mass[i] == mass[x] && i != x) {
                     n = true;
-
+                    break;
 
                 }
             }
+            else break;
+        }
         if (n == true)
         System.out.println("Не все цифры уникальны");
         else
